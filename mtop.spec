@@ -8,7 +8,7 @@ License:	GPL
 Group:		Applications/Databases
 Source0:	http://dl.sourceforge.net/mtop/%{name}-%{version}.tar.gz
 # Source0-md5:	3a7b400982e9dba8243a1424b9fdd244
-BuildRequires:  perl-DBD-mysql
+BuildRequires:	perl-DBD-mysql
 BuildRequires:	perl-devel >= 1:5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
