@@ -3,12 +3,12 @@ Summary:	mtop/mkill - MySQL Monitoring Tools
 Summary(pl):	mtop/mkill - narzêdzia do monitorowania MySQL
 Name:		mtop
 Version:	0.6.4
-Release:	0.1
+Release:	0.2
 License:	GPL
 Group:		Applications/Databases
 Source0:	http://dl.sourceforge.net/mtop/%{name}-%{version}.tar.gz
 # Source0-md5:	3a7b400982e9dba8243a1424b9fdd244
-BuildRequires:	perl-devel >= 5.6
+BuildRequires:	perl-devel >= 1:5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
