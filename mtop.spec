@@ -12,6 +12,7 @@ URL:		http://mtop.sourceforge.net/
 BuildRequires:	perl-DBD-mysql
 BuildRequires:	perl-devel >= 1:5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
+Requires:	perl-Curses
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
