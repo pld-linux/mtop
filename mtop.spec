@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	mtop/mkill - MySQL Monitoring Tools
-Summary(pl):	mtop/mkill - narzêdzia do monitorowania MySQL
+Summary(pl.UTF-8):   mtop/mkill - narzÄ™dzia do monitorowania MySQL
 Name:		mtop
 Version:	0.6.6
 Release:	0.1
@@ -29,17 +29,17 @@ running queries and kills them after a specified time interval.
 Queries can be selected based on regexes on the user, host, command,
 database, state and query.
 
-%description -l pl
-mtop (MySQL top) monitoruje serwer MySQL pokazuj±c zapytania, których
-wykonanie zajmuje najwiêcej czasu. Mo¿liwo¶ci obejmuj± "powiêkszanie"
-procesów, aby pokazaæ pe³ne zapytania, obja¶nianie (explain)
-informacji o optymalizacji zapytania oraz "zabijanie" zapytañ. Ponadto
-dostêpne s± statystyki wydajno¶ci, informacje o konfiguracji oraz
-wskazówki dotycz±ce strojenia.
+%description -l pl.UTF-8
+mtop (MySQL top) monitoruje serwer MySQL pokazujÄ…c zapytania, ktÃ³rych
+wykonanie zajmuje najwiÄ™cej czasu. MoÅ¼liwoÅ›ci obejmujÄ… "powiÄ™kszanie"
+procesÃ³w, aby pokazaÄ‡ peÅ‚ne zapytania, objaÅ›nianie (explain)
+informacji o optymalizacji zapytania oraz "zabijanie" zapytaÅ„. Ponadto
+dostÄ™pne sÄ… statystyki wydajnoÅ›ci, informacje o konfiguracji oraz
+wskazÃ³wki dotyczÄ…ce strojenia.
 
-mkill (MySQL kill) monitoruje serwer MySQL pod k±tem d³ugo trwaj±cych
-zapytañ i zabija je po okre¶lonym czasie. Zapytania mog± byæ wybierane
-na podstawie wyra¿eñ regularnych dla u¿ytkownika, hosta, komendy, bazy
+mkill (MySQL kill) monitoruje serwer MySQL pod kÄ…tem dÅ‚ugo trwajÄ…cych
+zapytaÅ„ i zabija je po okreÅ›lonym czasie. Zapytania mogÄ… byÄ‡ wybierane
+na podstawie wyraÅ¼eÅ„ regularnych dla uÅ¼ytkownika, hosta, komendy, bazy
 danych, stanu i samego zapytania.
 
 %prep
