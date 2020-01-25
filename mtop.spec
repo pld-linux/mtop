@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	mtop/mkill - MySQL Monitoring Tools
 Summary(pl.UTF-8):	mtop/mkill - narzędzia do monitorowania MySQL
 Name:		mtop
